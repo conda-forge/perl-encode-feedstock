@@ -1,6 +1,6 @@
 {% set name = "perl-encode" %}
-{% set version = "3.19" %}
-{% set sha256 = "9163f848eef69e4d4cc8838397f0861fd9ea7ede001117dbd9694f8d95052ef5" %}
+{% set version = "3.20" %}
+{% set sha256 = "ced8fc06c54c05f227bfd9db38c1ed48a5a295db89f497d42b335afbf1f73517" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: true    # [win]
+  skip: true  # [win]
 
 requirements:
   build:
@@ -41,7 +41,7 @@ test:
 
 about:
   home: http://metacpan.org/pod/Encode
-  license:  GPL-1.0-or-later OR Artistic-1.0-Perl
+  license: GPL-1.0-or-later OR Artistic-1.0-Perl
   license_file:
     - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
     - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
