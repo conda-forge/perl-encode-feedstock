@@ -50,8 +50,6 @@ about:
   summary: 'character encodings in Perl'
 
 extra:
-  additional-platforms:
-    - linux-aarch64
   recipe-maintainers:
     - xileF1337
     - cbrueffer
