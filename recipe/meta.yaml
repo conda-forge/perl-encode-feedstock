@@ -1,6 +1,6 @@
 {% set name = "perl-encode" %}
-{% set version = "3.21" %}
-{% set sha256 = "eacf71c5eb49e0e590de797f1982d7fb95d8481e4d13c3ce79eb32ef9373b3db" %}
+{% set version = "3.24" %}
+{% set sha256 = "e4ff0be00ef14c42754c9db2fee41a053e9d4613db6405e98cd0e0e5be740362" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
