@@ -11,8 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  skip: true  # [win]
+  number: 1
 
 requirements:
   build:
@@ -44,8 +43,8 @@ about:
   home: http://metacpan.org/pod/Encode
   license: GPL-1.0-or-later OR Artistic-1.0-Perl
   license_file:
-    - {{ environ["PREFIX"] }}/man/man1/perlartistic.1
-    - {{ environ["PREFIX"] }}/man/man1/perlgpl.1
+    - {{ environ["PREFIX"] }}/lib/perl5/core_perl/pod/perlartistic.pod
+    - {{ environ["PREFIX"] }}/lib/perl5/core_perl/pod/perlgpl.pod
   summary: 'character encodings in Perl'
 
 extra:
